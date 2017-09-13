@@ -68,5 +68,10 @@ class Owner
     self.pets.clear
   end
 
+  def list_pets
+    self.pets.each_value do |s|
+      "I have #{s[:fishes].length} fish,#{s[:dogs].length} dog(s), and #{s[cats].length} cat(s)."
+    end
+  end
 
 end
