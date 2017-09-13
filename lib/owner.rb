@@ -11,11 +11,11 @@ class Owner
   end
 
   def self.all
-    self.all.uniq.dup.freeze
+    self.all.dup.freeze
   end
 
   def self.delete_all
     self.all.clear
   end
-  
+
 end
