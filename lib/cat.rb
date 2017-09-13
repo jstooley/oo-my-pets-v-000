@@ -10,5 +10,6 @@ class Cat
   end
 
   def mood
+    @mood.dup.freeze
   end
 end
