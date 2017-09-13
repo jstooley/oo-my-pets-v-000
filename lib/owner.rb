@@ -6,7 +6,7 @@ class Owner
     @@all << self
   end
 
-  def name
+  def species
     @species.dup.freeze
   end
 
