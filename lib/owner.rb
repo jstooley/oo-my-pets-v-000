@@ -11,7 +11,7 @@ class Owner
   end
 
   def self.all
-    self.all.dup.freeze
+    self.all
   end
 
   def self.delete_all
