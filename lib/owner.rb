@@ -11,7 +11,7 @@ class Owner
   end
 
   def self.all
-    self.all
+    self.all.name
   end
 
   def self.delete_all
