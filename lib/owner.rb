@@ -60,6 +60,10 @@ class Owner
   end
 
   def sell_pets
+    self.pets.collect do |s|
+      s.collect do |p|
+      end
+    end
   end
 
 end
