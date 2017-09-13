@@ -22,4 +22,8 @@ class Owner
     self.all.length
   end
 
+  def say_species
+    puts "I am a #{@species}"
+  end
+
 end
