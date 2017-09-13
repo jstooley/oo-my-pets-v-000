@@ -62,6 +62,7 @@ class Owner
   def sell_pets
     self.pets.collect do |s|
       s.collect do |p|
+        p.mood = "nervous"
       end
     end
   end
