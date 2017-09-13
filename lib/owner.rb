@@ -9,4 +9,8 @@ class Owner
   def name
     @name.dup.freeze
   end
+
+  def self.all
+    self.all.uniq.dup.freeze
+  end
 end
