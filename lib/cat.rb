@@ -1,4 +1,5 @@
 class Cat
+  attr_writer :mood
 
   def initialize (name)
     @name = name
