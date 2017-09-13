@@ -9,6 +9,6 @@ class Cat
     @name.dup.freeze
   end
 
-  def mood 
+  def mood
   end
 end
