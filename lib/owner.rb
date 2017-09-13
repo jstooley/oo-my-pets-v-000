@@ -1,13 +1,13 @@
 class Owner
 
   @@all = []
-  def initialize(name)
-    @name = name
+  def initialize(species)
+    @species = species
     @@all << self
   end
 
   def name
-    @name.dup.freeze
+    @species.dup.freeze
   end
 
   def self.all
